@@ -5,8 +5,7 @@ using namespace std;
 // de varias lineas de la forma y = mx + b
 struct ConvexHullDynamic
 {
-    static const ll INF=1e18;
-
+    static const ll INF=1e18; // usar <static constexpr> para double
     struct Line
     {
         ll a, b; //y = ax + b

@@ -45,7 +45,7 @@ int main() {
 		int b;
 		cin >> b;
 		--b;
-		adj[b].push_back(i + 1); // boss de b es i + 1
+		adj[b].push_back(i + 1); 
 	}
 
 	up[0][0] = 0, depth[0] = 0;
