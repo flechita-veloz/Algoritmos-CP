@@ -1,3 +1,4 @@
+// HALFPLANE intersection
 // Redefine epsilon and infinity as necessary. Be mindful of precision errors.
 const long double eps = 1e-9, inf = 1e9; 
 

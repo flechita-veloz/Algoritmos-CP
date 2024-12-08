@@ -20,6 +20,7 @@ typedef vector<vector<int> > vvi;
 typedef vector<pii> vpi;
 typedef vector<vll> vvll;
 
+// ALL LONGEST PATHS (DP EN ARBOLES)
 // Calcula la ruta mas larga para todos los nodos
 // tal que comienza desde el nodo x
 const int N = 1e6;

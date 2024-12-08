@@ -1,4 +1,11 @@
-// O((N + Q)log n)
+/*  O((N + Queries)log n)
+    Centroid Decomposition: 
+	Divide el árbol en "centroides" con subárboles disjuntos.
+	En un arbol de nodos rojo y azul.
+	- Cambiar el color de nodo en log(n)
+	- Consulta el nodo rosa mas cercano a un nodo en log(n)
+*/
+
 const int N = 1e5 + 10;
 vector<vector<int>> adj(N);
 vector<bool> is_removed(N);

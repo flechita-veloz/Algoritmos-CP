@@ -28,7 +28,7 @@ void build(){
 }
 
 void update(int p, int value){
-  for(tree[p += n] = value; p > 1; p/= 2) tree[p/2] = tree[p]+tree[p^1];
+  for(tree[p += n] = value; p > 1; p/= 2) tree[p/2] = tree[p]+tree[p^1]; // setea, no aumenta
 }
 
 int query(int l, int r){

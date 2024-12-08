@@ -20,6 +20,7 @@ typedef vector<vector<int> > vvi;
 typedef vector<pii> vpi;
 typedef vector<vll> vvll;
 
+// Palindromic Tree con delete
 const int maxn = 1e5 + 5, sigma = 26; // sigma son las letras del abc
 char s[maxn]; // aqui guardamos el string 
 int len[maxn], link[maxn], to[maxn][sigma];

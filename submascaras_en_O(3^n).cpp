@@ -20,6 +20,7 @@ typedef vector<vector<int> > vvi;
 typedef vector<pii> vpi;
 typedef vector<vll> vvll;
 
+// subma
 const ll N = 1 << 16;
 vvll grid(16, vll(16));
 ll n;
@@ -37,6 +38,7 @@ void prec(){
     }
 }
 
+// submask en O(3^n)
 ll dfs2(ll mask){
     if(mask == 0) return 0;
     if(vis[mask]) return dp[mask];
